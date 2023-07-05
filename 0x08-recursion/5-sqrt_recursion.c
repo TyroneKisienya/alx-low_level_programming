@@ -1,4 +1,5 @@
 #include "main.h"
+#include "_sq_root.c"
 
 /**
  * _sqrt_recursion - print natural sqrt of an integer
