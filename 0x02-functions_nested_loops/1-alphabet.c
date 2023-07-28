@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main -Entry point
- *
- * description - prints alphabets in low
+ * print_alphabet - Entry point
  *
  * Return: NULL (success)
  */
