@@ -3,7 +3,9 @@
 /**
  * main -Entry point
  *
- * Return: 0 (success)
+ * description - prints alphabets in low
+ *
+ * Return: NULL (success)
  */
 void print_alphabet(void)
 {
