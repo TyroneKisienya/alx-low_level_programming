@@ -2,7 +2,7 @@
 /**
  * _abs -entry
  *
- * @int: prints the absolute value of a no
+ * @i: prints the absolute value of a no
  *
  * Return: positivr or negative
  */
