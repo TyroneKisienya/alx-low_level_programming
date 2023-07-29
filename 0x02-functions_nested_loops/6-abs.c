@@ -16,6 +16,6 @@ int _abs(int)
 	}
 	else
 	{
-		return (-1 * r);
+		return (-1 * i);
 	}
 }
