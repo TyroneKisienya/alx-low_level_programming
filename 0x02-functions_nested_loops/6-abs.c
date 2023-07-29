@@ -6,10 +6,8 @@
  *
  * Return: positivr or negative
  */
-int _abs(int)
+int _abs(int r)
 {
-	int i;
-
 	if (i > 0)
 	{
 		return (i);
