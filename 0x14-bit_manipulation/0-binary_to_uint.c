@@ -16,7 +16,7 @@ unsigned int binary_to_uint(const char *b);
 		return (0);
 	while (*b)
 	{
-		if (*b == 98)
+		if (*b == 49)
 			num = (num << 1) | 1;
 		else
 			return (0);
