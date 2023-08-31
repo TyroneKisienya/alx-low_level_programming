@@ -9,6 +9,7 @@
  *
  * Return: success 0 else 1, -1
  */
+
 int get_bit(unsigned long int n, unsigned int index)
 {
 	int m;
