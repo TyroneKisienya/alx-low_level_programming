@@ -36,6 +36,6 @@ void print_binary(unsigned long int n)
 			_putchar(48);
 		else
 			_putchar(49);
-		m = m >> m;
+		m = m >> 1;
 	}
 }
