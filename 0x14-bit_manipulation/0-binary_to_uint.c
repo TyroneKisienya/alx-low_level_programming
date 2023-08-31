@@ -8,7 +8,7 @@
  * Return: num
  */
 
-unsigned int binary_to_uint(const char *b);
+unsigned int binary_to_uint(const char *b)
 {
 	unsigned int num = 0;
 
@@ -18,8 +18,6 @@ unsigned int binary_to_uint(const char *b);
 	{
 		if (*b == 49)
 			num = (num << 1) | 1;
-		else if (*b == 48)
-			num <<= 1;
 		else
 			return (0);
 		b++;
