@@ -18,5 +18,5 @@ int get_bit(unsigned long int n, unsigned int index)
 	if (index > max)
 		return (-1);
 	m = ((n >> index) & 1);
-	return (b);
+	return (m);
 }
