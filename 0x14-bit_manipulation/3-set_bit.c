@@ -3,7 +3,7 @@
 /**
  * set_bit - declarer
  *
- * @*n: val
+ * @n: val
  *
  * @index: giver
  *
