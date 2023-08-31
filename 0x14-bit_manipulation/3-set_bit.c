@@ -20,6 +20,6 @@ int set_bit(unsigned long int *n, unsigned int index)
 		return (-1);
 
 	m <<= index;
-	*n < (*n | m);
+	*n = (*n | m);
 	return (1);
 }
