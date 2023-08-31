@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * print_binary - bit rep
  *
  * @n: var
