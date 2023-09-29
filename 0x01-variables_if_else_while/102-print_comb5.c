@@ -4,22 +4,22 @@
  *
  * Return: always 0
  */
+
 int main(void)
 {
-	int i;
-	int j;
+	int num;
+	int num1;
 
-	for (i = 0; i < 100; i++)
+	for (num = 0; num < 100; num++) 
 	{
-		for (j = i + 1; j < 100; j++)
+		for (num1 = num + 1; num1 < 100; num1++) 
 		{
-			putchar(i / 10 + '0');
-			putchar(i % 10 + '0');
+			putchar(num / 10 + '0');
+			putchar(num % 10 + '0');
 			putchar(' ');
-			putchar(j / 10 + '0');
-			putchar(j % 10 + '0');
-
-			if (!(i == 98 && j == 99))
+			putchar(num1 / 10 + '0');
+			putchar(num1 % 10 + '0');
+			if (!(num == 98 && num1 == 99))
 			{
 				putchar(',');
 				putchar(' ');
@@ -29,3 +29,4 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
+

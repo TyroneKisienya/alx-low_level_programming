@@ -5,19 +5,19 @@
  *
  * Return: 0
  */
+
 int main(void)
 {
-	int n;
+	char c;
 
-	for (n = 0; n < 10; n++)
+	for (c = 0; c < 10; c++)
 	{
-		putchar(n);
+		putchar(c + '0');
 	}
-
-	for (n = 'a'; n < 'g'; n++)
+	for (c = 'a'; c < 'g';c++) 
 	{
-		putchar(n);
-	}
-	putchar('\n');
+		putchar(c);
+	} 
+	putchar ('\n');
 	return (0);
 }

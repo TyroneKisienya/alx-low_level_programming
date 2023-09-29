@@ -7,12 +7,14 @@
  */
 int main(void)
 {
-	int c;
+	int num;
 
-	for (c = 0; c < 10; c++)
+	do 
 	{
-		putchar(c + '0');
+		putchar(num + '0');
+		num++;
 	}
+	while (num < 10);
 	putchar('\n');
 	return (0);
 }

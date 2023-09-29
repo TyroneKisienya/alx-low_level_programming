@@ -4,22 +4,23 @@
  *
  *Return: 0
  */
+
 int main(void)
 {
-	int i;
-	int j;
-	int k;
+	int num;
+	int num1;
+	int num2;
 
-	for (i = 0; i < 10; i++)
+	for (num = 0; num < 10; num++)
 	{
-		for (j = i + 1; j < 10; j++)
+		for (num1 = num + 1; num1 < 10; num1++)
 		{
-			for (k = j + 1; k < 10; k++)
+			for (num2 = num1 + 1; num2 < 10; num2++)
 			{
-				putchar(i + '0');
-				putchar(j + '0');
-				putchar(k + '0');
-				if (i != 7 || j != 8 || k != 9)
+				putchar(num + '0');
+				putchar(num1 + '0');
+				putchar(num2 + '0');
+				if ( num != 7 || num != 8 || num != 9)
 				{
 					putchar(',');
 					putchar(' ');
