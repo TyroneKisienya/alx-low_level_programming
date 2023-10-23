@@ -1,4 +1,5 @@
 #!/bin/bash
-
-gcc -fPIC -c *.c
-gcc *.o -shared -o liball.so
+#
+gcc -c -fPIC *.c
+gcc -shared -o liball.so *.oi
+export LD_LIBRARY_PSTH=.:$LD_LIBRARY_PATH
